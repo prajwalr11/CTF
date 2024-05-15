@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+}
+
+.gif-section {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000;
+  /*  background-image: url('https://i.pinimg.com/originals/e0/00/bf/e000bf3c9e35862c60c70c4db967b9b7.gif');*/
+      /*background-image: url('../media/tumblr.gif');*/
+      background-image: url('../media/tum.gif');
+    color: #f5e105;
+    padding: 0 8%;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #f5e105;
+    text-decoration: none;
+    margin: 10px 0;
+    display: block;
+}
+
+.navbar img {
+    width: 70px;
+}
+
+
+.gif-section h1 {
+    font-size: 5vw;
+    margin-top: 12%;
+
+
+}
+
+
+.gif-section button {
+    background: #d6d5be;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    color: #030303;
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.about-section {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/870/756/865/4k-dark-blue-lines-grid-lines-wallpaper-preview.jpg');
+    background-position: center;
+    color: #fff;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.sponsor-section {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/870/756/865/4k-dark-blue-lines-grid-lines-wallpaper-preview.jpg');
+    background-position: center;
+    color: #fff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.sponsor-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.sponsor-cards {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    scroll-behavior: smooth;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between the cards */
+}
+
+.sponsor-card {
+    flex: 0 0 auto;
+    width: 300px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.sponsor-card:hover {
+    transform: scale(1.05);
+}
+
+.sponsor-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.guideline-section {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/870/756/865/4k-dark-blue-lines-grid-lines-wallpaper-preview.jpg');
+    background-position: center;
+    color: #fff;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-section {
+    min-height: 50vh;
+    width: 100%;
+     background-color: #404040;
+
+    background-position: center;
+    color: #000;
+    text-align: center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.timeline-section {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/870/756/865/4k-dark-blue-lines-grid-lines-wallpaper-preview.jpg');
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.about-section h2 {
+    font-size: 3em;
+}
+
+.about-section p {
+    font-size: 1.2em;
+}
+
+.timeline-section {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.timeline-section h2 {
+    font-size: 3em;
+}
+
+.timeline-section p {
+    font-size: 1.2em;
+}
+
+.contact-section h2 {
+    font-size: 3em;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+}
+/* Define the style for the guideline section */
+.guideline-section {
+    min-height: 100vh;
+    font-size: 2em; /* Change the font size to 3em */
+    width: 100%; /* Occupy the maximum width of the page */
+    margin: 0; /* Center the content horizontally */
+    padding: 50px 90px; /* Add some padding for better readability */
+     /* Include padding in the width */
+  }
+
+  .contact-section {
+    background-color: #f0f0f0; /* Change the background color */
+    padding: 20px; /* Add some padding for spacing */
+  }
+
+  /* Style for social media icons */
+  .social-media-icon {
+    width: 30px; /* Adjust icon size as needed */
+    height: auto;
+    margin-right: 10px; /* Add some spacing between icons */
+    vertical-align: middle;
+  }
+
+  @media (min-width: 576px) {
+    .gif-section h1 {
+      font-size: 3.5vw;
+      margin-top: 8%;
+    }
+  
+    .gif-section button {
+      padding: 12px 25px;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .gif-section h1 {
+      font-size: 4vw;
+      margin-top: 10%;
+    }
+  
+    .gif-section button {
+      padding: 15px 30px;
+      margin-top: 22px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .gif-section h1 {
+      font-size: 5vw;
+      margin-top: 12%;
+    }
+  
+    .gif-section button {
+      padding: 15px 35px;
+      margin-top: 25px;
+    }
+  }
